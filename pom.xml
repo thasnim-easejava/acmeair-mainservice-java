@@ -77,9 +77,7 @@
                   <phase>test</phase>
                   <id>default-test</id>
                   <configuration>
-                     <excludes>
-                        <exclude>**/it/**</exclude>
-                     </excludes>
+                     
                      <reportsDirectory>${project.build.directory}/test-reports/unit</reportsDirectory>
                   </configuration>
                </execution>
